@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+  
 body {
     background-color: burlywood;
 }
@@ -21,3 +25,12 @@ a {
 ul li {
 	display: inline;
 }
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+	display: none;
+}
+
+
